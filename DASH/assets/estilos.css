@@ -1,0 +1,151 @@
+body {
+    background-color: #0f1e13;
+    color: #d8f3dc;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+h2 {
+    color: #b7efc5;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    height: 50px;
+    margin-right: 12px;
+    vertical-align: middle;
+}
+
+/* Contenedor principal */
+.dash-container, .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Contenedor de inputs */
+.input-panel {
+    background-color: #162a1c;
+    border: 1px solid #264d36;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 255, 150, 0.05);
+}
+
+/* Etiquetas */
+label, .form-label {
+    font-weight: 600;
+    color: #b7efc5;
+    margin-top: 10px;
+}
+
+/* Dropdowns */
+.Select-control,
+.Select-placeholder,
+.Select--single > .Select-control .Select-value,
+.Select-value-label,
+.Select-menu-outer,
+.Select-option {
+    background-color: #1f2e1e !important;
+    color: #e5ffe5 !important;
+    border-color: #3c5543 !important;
+    border-radius: 6px;
+}
+
+.Select-option.is-focused {
+    background-color: #2a4d32 !important;
+}
+
+.Select-option.is-selected {
+    background-color: #4caf50 !important;
+    color: #ffffff !important;
+}
+
+.Select input {
+    color: #e5ffe5 !important;
+}
+
+.Select-menu-outer {
+    border-radius: 5px;
+    margin-top: 5px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+/* Inputs */
+input[type="text"],
+input[type="number"] {
+    background-color: #1f2e1e;
+    color: #d8f3dc;
+    border: 1px solid #3c5543;
+    border-radius: 6px;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+/* Botones */
+button, .btn-primary {
+    background-color: #2a9d8f !important;
+    border-color: #2a9d8f !important;
+    color: white !important;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin-top: 15px;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 0 transparent;
+}
+
+button:hover, .btn-primary:hover {
+    background-color: #21867a !important;
+    border-color: #21867a !important;
+    box-shadow: 0 4px 10px rgba(42, 157, 143, 0.3);
+}
+
+/* Resultado */
+#resultado {
+    font-size: 1.2rem;
+    background-color: #1a3323;
+    padding: 16px;
+    border-radius: 8px;
+    border-left: 5px solid #34d399;
+    margin-top: 20px;
+    color: #d8f3dc;
+    box-shadow: 0 4px 10px rgba(0, 255, 150, 0.1);
+}
+
+/* Contenedor de gráficas */
+#grafico_rendimiento, 
+#grafico_histograma, 
+#grafico_mapa {
+    margin-bottom: 30px;
+    border-radius: 12px;
+    background-color: #1a3323;
+    padding: 12px;
+    box-shadow: 0 4px 12px rgba(0, 255, 150, 0.07);
+}
+
+/* Transición suave para toda la interfaz */
+* {
+    transition: all 0.3s ease;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 1.4rem;
+    }
+    .input-panel {
+        padding: 15px;
+    }
+    #resultado {
+        font-size: 1rem;
+    }
+}
