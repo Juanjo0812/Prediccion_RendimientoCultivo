@@ -44,7 +44,7 @@ Este proyecto implementa un sistema de predicción del rendimiento agrícola en 
 
 - El modelo basado en **Random Forest** mostró un buen desempeño inicial pero con problemas de *data leakage* y limitaciones para escenarios futuros.
 - Se desarrolló una **red neuronal multitarea** que predice simultáneamente condiciones climáticas y rendimiento agrícola:
-  - Métricas obtenidas: R² ≈ 0.86, RMSE ≈ 0.24 t/ha
+  - Métricas obtenidas: R² ≈ 0.92, RMSE ≈ 1.38 t/ha
   - Mejor capacidad de generalización hacia períodos no observados.
 - Se construyó una aplicación interactiva en **Dash**, que permite:
   - Ingresar municipio, periodo, cultivo y área sembrada.
@@ -64,22 +64,21 @@ Este proyecto implementa un sistema de predicción del rendimiento agrícola en 
    cd proyecto-agricultura-inteligente
 
 2. Crear entorno virtual e instalar dependencias:
-   python -m venv venv
+  python -m venv venv
   source venv/bin/activate   # En Linux/Mac
   venv\Scripts\activate      # En Windows
   pip install -r requirements.txt
 
 3. Ejecutar la aplicación Dash:
-   python App.py
+  python App.py
 
 4. Abrir el navegador en http://127.0.0.1:8050/
 
 
 ## Autor
 
-  Juan Joseph Mora Estrada
-  Estudiante de Ingeniería Electrónica
-  Universidad del Quindío
+  *Juan Joseph Mora Estrada*
+  *Bootcamp IA Talento Tech – MINTIC* 
 
 
 ## Referencias
