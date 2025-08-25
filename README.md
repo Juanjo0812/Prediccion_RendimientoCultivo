@@ -59,17 +59,17 @@ Este proyecto implementa un sistema de predicción del rendimiento agrícola en 
 
 ## Cómo ejecutar el proyecto
 
-1. Clonar este repositorio:
-   git clone https://github.com/usuario/proyecto-agricultura-inteligente.git
+1. Clonar este repositorio:\
+   git clone https://github.com/usuario/proyecto-agricultura-inteligente.git\
    cd proyecto-agricultura-inteligente
 
-2. Crear entorno virtual e instalar dependencias:
-  python -m venv venv
-  source venv/bin/activate   # En Linux/Mac
-  venv\Scripts\activate      # En Windows
+2. Crear entorno virtual e instalar dependencias:\
+  python -m venv venv\
+  source venv/bin/activate   # En Linux/Mac\
+  venv\Scripts\activate      # En Windows\
   pip install -r requirements.txt
 
-3. Ejecutar la aplicación Dash:
+3. Ejecutar la aplicación Dash:\
   python App.py
 
 4. Abrir el navegador en http://127.0.0.1:8050/
