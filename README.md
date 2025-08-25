@@ -53,7 +53,7 @@ Este proyecto implementa un sistema de predicción del rendimiento agrícola en 
 
 *Ejemplo de la interfaz de usuario:*
 
-![Interfaz de la aplicación](./assets/demo_app.png)
+![Interfaz de la aplicación](DASH/assets/image.png)
 
 ---
 
@@ -75,10 +75,20 @@ Este proyecto implementa un sistema de predicción del rendimiento agrícola en 
 4. Abrir el navegador en http://127.0.0.1:8050/
 
 
-Autor
+## Autor
 
-Juan Joseph Mora Estrada
-Estudiante de Ingeniería Electrónica
-Universidad del Quindío
+  Juan Joseph Mora Estrada
+  Estudiante de Ingeniería Electrónica
+  Universidad del Quindío
 
-   
+
+## Referencias
+
+Ministerio de Agricultura y Desarrollo Rural. (s.f.). Evaluaciones Agropecuarias Municipales (EVA). Datos Abiertos Colombia.
+
+  - https://www.datos.gov.co/Agricultura-y-Desarrollo-Rural/Evaluaciones-Agropecuarias-Municipales-EVA/2pnw-mmge/about_data
+  - https://www.datos.gov.co/Agricultura-y-Desarrollo-Rural/Evaluaciones-Agropecuarias-Municipales-EVA-2019-20/uejq-wxrr/about_data
+
+NASA POWER. (s.f.). NASA Prediction of Worldwide Energy Resources (POWER) Data Access Viewer.
+  
+  - https://power.larc.nasa.gov/data-access-viewer/
