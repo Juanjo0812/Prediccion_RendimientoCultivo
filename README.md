@@ -60,7 +60,7 @@ Este proyecto implementa un sistema de predicción del rendimiento agrícola en 
 ## Cómo ejecutar el proyecto
 
 1. Clonar este repositorio:\
-   git clone https://github.com/usuario/proyecto-agricultura-inteligente.git\
+   git clone https://github.com/Juanjo0812/Prediccion_RendimientoCultivo.git\
    cd proyecto-agricultura-inteligente
 
 2. Crear entorno virtual e instalar dependencias:\
