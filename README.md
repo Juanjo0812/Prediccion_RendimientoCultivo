@@ -77,7 +77,7 @@ Este proyecto implementa un sistema de predicción del rendimiento agrícola en 
 
 ## Autor
 
-  *Juan Joseph Mora Estrada*
+  *Juan Joseph Mora Estrada*\
   *Bootcamp IA Talento Tech – MINTIC* 
 
 
