@@ -63,16 +63,16 @@ Este proyecto implementa un sistema de predicción del rendimiento agrícola en 
    git clone https://github.com/Juanjo0812/Prediccion_RendimientoCultivo.git
    cd Prediccion_RendimientoCultivo
 
-2. Crear entorno virtual e instalar dependencias:\
+3. Crear entorno virtual e instalar dependencias:\
   python -m venv venv\
-  source venv/bin/activate   # En Linux/Mac\
+  source venv/bin/activate   # En Linux/Mac
   venv\Scripts\activate      # En Windows\
   pip install -r requirements.txt
 
-3. Ejecutar la aplicación Dash:\
+4. Ejecutar la aplicación Dash:\
   python App.py
 
-4. Abrir el navegador en http://127.0.0.1:8050/
+5. Abrir el navegador en http://127.0.0.1:8050/
 
 
 ## Autor
