@@ -1,5 +1,10 @@
 # Agricultura Inteligente: Predicción de Rendimiento Mediante Aprendizaje Profundo
 
+[![Python](https://img.shields.io/badge/Python-3.10-blue.svg?logo=python&logoColor=white)](https://www.python.org/)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.14-orange.svg?logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
+
+---
+
 Este proyecto implementa un sistema de predicción del rendimiento agrícola en el departamento del Huila, Colombia, utilizando **aprendizaje profundo** (redes neuronales) y análisis de datos climáticos. El trabajo combina información histórica de evaluaciones agropecuarias con datos climáticos satelitales de la NASA, integrados en un modelo multitarea capaz de proyectar rendimientos futuros.
 
 ---
