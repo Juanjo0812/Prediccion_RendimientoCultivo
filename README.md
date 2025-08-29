@@ -60,12 +60,12 @@ Este proyecto implementa un sistema de predicción del rendimiento agrícola en 
 ## Cómo ejecutar el proyecto
 
 1. Clonar este repositorio:\
-   git clone https://github.com/Juanjo0812/Prediccion_RendimientoCultivo.git
+   git clone https://github.com/Juanjo0812/Prediccion_RendimientoCultivo.git\
    cd Prediccion_RendimientoCultivo
 
 3. Crear entorno virtual e instalar dependencias:\
   python -m venv venv\
-  source venv/bin/activate   # En Linux/Mac
+  source venv/bin/activate   # En Linux/Mac\
   venv\Scripts\activate      # En Windows\
   pip install -r requirements.txt
 
