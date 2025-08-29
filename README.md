@@ -20,15 +20,17 @@ Este proyecto implementa un sistema de predicción del rendimiento agrícola en 
 
 ## Contenido del repositorio
 
+- **`Bases de datos`** → Bases de datos originales antes de procesamiento.
 - **`Proyecto.ipynb`** → Notebook en Google Colab con todo el proceso de exploración, preprocesamiento, entrenamiento y validación del modelo.
-- **`App.py`** → Aplicación en **Dash** que permite ingresar variables (municipio, periodo, cultivo, área sembrada) y obtener predicciones de rendimiento, con visualización gráfica.
-- **`/assets/estilos.css`** → Estilos personalizados para la interfaz de la aplicación web.
-- **`modelo_rendimiento_red.h5`** → Modelo final entrenado (red neuronal).
-- **`preprocesador_red.pkl`** → Pipeline de preprocesamiento (transformaciones y codificaciones de variables).
-- **`label_encoder_periodo.pkl`** → Codificador de periodos de siembra.
-- **`df_completo.csv`** → Base de datos consolidada (rendimiento + clima).
+- **`DASH/App.py`** → Aplicación en **Dash** que permite ingresar variables (municipio, periodo, cultivo, área sembrada) y obtener predicciones de rendimiento, con visualización gráfica.
+- **`DASH/assets/estilos.css`** → Estilos personalizados para la interfaz de la aplicación web.
+- **`DASH/modelo_rendimiento_red.h5`** → Modelo final entrenado (red neuronal).
+- **`DASH/preprocesador_red.pkl`** → Pipeline de preprocesamiento (transformaciones y codificaciones de variables).
+- **`DASH/label_encoder_periodo.pkl`** → Codificador de periodos de siembra.
+- **`DASH/df_completo.csv`** → Base de datos consolidada (rendimiento + clima).
 - **`Informe_Proyecto.pdf`** → Informe técnico en normas APA.
 - **`Presentación_Proyecto.pptx`** → Presentación ejecutiva del proyecto.
+- **`requirements.txt`** → Dependencias.
 
 ---
 
